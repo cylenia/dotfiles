@@ -48,9 +48,10 @@
   "custom/spotify": {
     "exec": "~/.config/waybar/spotify.sh",
     "interval": 1,
-    "on-click": "playerctl play-pause",
-    "on-click-right": "playerctl next",
-    "on-click-middle": "playerctl previous",
+    "signal": 3,
+    "on-click": "playerctl play-pause && pkill -SIGRTMIN+3 waybar",
+    "on-click-right": "playerctl next && pkill -SIGRTMIN+3 waybar",
+    "on-click-middle": "playerctl previous && pkill -SIGRTMIN+3 waybar",
     "tooltip": false
   }
 }
