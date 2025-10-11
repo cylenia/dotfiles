@@ -30,11 +30,16 @@ window#waybar.hidden {
 }
 
 #workspaces button {
-  color: #cdd6f4;
-  margin: 4px 4px;
-  padding: 4px 4px;
+  color: #cba6f7;
+  margin: 0;
+  padding: 8px;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  transition: none;
 }
 
 #workspaces button.active {
-  color: #cba6f7;
+  background: #cba6f7;
+  color: #1e1e2e
 }
