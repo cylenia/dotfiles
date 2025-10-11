@@ -14,7 +14,7 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
-    "pulseaudio"
+    "custom/spotify"
   ],
   /* === Modules Left === */
   "clock": {
@@ -45,14 +45,12 @@
     "show-special": true
   },
   /* === Modules Right === */
-  "pulseaudio": {
-    "format": "{volume}% {icon}",
-    "format-muted": " {format_source}",
-    "format-icons": {
-      "default": [
-        "",
-        ""
-      ]
-    }
+  "custom/spotify": {
+    "exec": "~/.config/waybar/spotify.sh",
+    "interval": 1,
+    "on-click": "playerctl play-pause",
+    "on-click-right": "playerctl next",
+    "on-click-middle": "playerctl previous",
+    "tooltip": false
   }
 }
