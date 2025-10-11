@@ -28,11 +28,13 @@ window#waybar.hidden {
 
 #workspaces button {
   color: #cba6f7;
+  background: none;
   margin: 0;
   padding: 4px;
   border: none;
   border-radius: 0;
   box-shadow: none;
+  transition: none;
 }
 
 #workspaces button.active {
