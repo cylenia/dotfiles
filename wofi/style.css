@@ -1,7 +1,7 @@
 window {
   font-size: 20px;
-  font-family: "JetbrainsMono Nerd Font";
-  background-color: #1e1e2e;
+  font-family: "Hack Nerd Font Mono";
+  background: #1e1e2e;
   color: #cdd6f4;
 }
 
@@ -10,15 +10,19 @@ window {
 }
 
 #input {
-  background-color: #1e1e2e;
+  background: #1e1e2e;
   color: #cdd6f4;
   border: none;
   border-bottom: solid 2px #cba6f7;
   border-radius: 0;
 }
 
-#entry:selected {
-  color: #cba6f7;
-  background-color: #1e1e2e;
+#entry {
+  background: none;
   border: none;
+  outline: none;
+}
+
+#text:selected {
+  color: #cba6f7;
 }
