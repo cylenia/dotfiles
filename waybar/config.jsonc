@@ -14,7 +14,7 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
-    "custom/spotify"
+    "custom/player"
   ],
   /* === Modules Left === */
   "clock": {
@@ -45,8 +45,8 @@
     "show-special": true
   },
   /* === Modules Right === */
-  "custom/spotify": {
-    "exec": "~/.config/waybar/spotify.sh",
+  "custom/player": {
+    "exec": "~/.config/waybar/player.sh",
     "interval": 1,
     "signal": 3,
     "on-click": "playerctl play-pause && pkill -SIGRTMIN+3 waybar",
