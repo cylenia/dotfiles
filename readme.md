@@ -22,3 +22,7 @@ if you get any warnings, read them. they should be descriptive enough to help yo
 ## requirements
 the status bar has a player module, which requires playerctl.  
 if you don't have playerctl, the bar will still work, but that module will not.
+
+## credits
+big credits to catppuccin since all my configs use their color scheme :3  
+specificially the mocha one
