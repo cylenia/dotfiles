@@ -20,5 +20,5 @@ $ ./update.sh
 if you get any warnings, read them. they should be descriptive enough to help you figure it out.
 
 ## requirements
-the status bar has a spotify module, which obviously requires spotify, aswell as playerctl.  
-if you don't have any of these, it will be fine, but it will not work.
+the status bar has a player module, which requires playerctl.  
+if you don't have playerctl, the bar will still work, but that module will not.
