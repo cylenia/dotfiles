@@ -20,4 +20,4 @@ if you get any warnings, read them. they should be descriptive enough to help yo
 big credits to catppuccin since i use their mocha color scheme in all my configs. thanks <3
 
 ## extra info
-there is also config for spicetify, but this is for myself more than anything. use it if you want tho.
+there is also config for spicetify, but this is for myself more than anything. use it if you want though. also, currently all changes will be overwritten when you get a new update (with `git pull`), i am trying to think of a stack to have a configuration of some sort for common things like timezone for the bar and keyboard layout, but i can't think of anything at the moment. if you have any ideas do let me know though!
