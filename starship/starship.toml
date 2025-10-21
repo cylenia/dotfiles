@@ -4,7 +4,6 @@ format = """
 [ ](bg:mauve fg:white)\
 $username\
 $directory\
-$time\
 [](bg:none fg:mauve) \
 """
 
@@ -18,16 +17,10 @@ format = '[ $user]($style)'
 
 [directory]
 style = "bg:mauve fg:bold crust"
-format = "[ $path]($style)"
+format = "[ $path ]($style)"
 home_symbol = "~"
 truncation_length = 0
 truncate_to_repo = false
-
-[time]
-disabled = false
-time_format = "%R"
-style = "bg:mauve fg:bold crust"
-format = '[ $time ]($style)'
 
 [line_break]
 disabled = false
