@@ -6,7 +6,7 @@ you will need to be on arch linux to follow the first command of the installatio
 
 ## setup
 ```sh
-~ $ paru -S stow bash fastfetch hyprland hyprpaper kitty neovim starship waybar wofi playerctl qt5-wayland qt6-wayland getnf
+~ $ paru -S stow bash fastfetch hyprland hyprpaper kitty neovim starship waybar wofi playerctl qt5-wayland qt6-wayland getnf mako grim hyprshot swappy slurp wl-clipboard cliphist
 ~ $ git clone git@github.com:cylenia/dotfiles
 ~ $ cd dotfiles
 ~/dotfiles $ chmod +x update.sh
