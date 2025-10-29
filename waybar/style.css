@@ -25,7 +25,15 @@ window#waybar.hidden {
   margin-right: 5px;
   border-radius: 10px;
 }
-
+#custom-net {
+  color: #cba6f7;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
 #workspaces button {
   color: #cba6f7;
   background: none;
