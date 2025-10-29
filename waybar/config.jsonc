@@ -14,13 +14,13 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
-    "custom/rx",
+    "custom/net",
     "custom/player"
   ],
   /* === Modules Left === */
   "clock": {
     "interval": 1,
-    "timezone": "Europe/London",
+    "timezone": "Europe/Kyiv",
     "format": "{:%H:%M:%S  %d/%m/%Y}",
     "tooltip-format": "{calendar}",
     "calendar": {
@@ -55,8 +55,8 @@
     "on-click-middle": "playerctl previous && pkill -SIGRTMIN+3 waybar",
     "tooltip": false
   },
-  "custom/rx": {
-    "exec": "~/.config/waybar/rx.sh",
+  "custom/net": {
+    "exec": "~/.config/waybar/net.sh",
     "interval": 1,
     "signal": 3,
     "tooltip": false
