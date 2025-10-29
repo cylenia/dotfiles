@@ -20,7 +20,7 @@
   /* === Modules Left === */
   "clock": {
     "interval": 1,
-    "timezone": "Europe/Kyiv",
+    "timezone": "Europe/London",
     "format": "{:%H:%M:%S  %d/%m/%Y}",
     "tooltip-format": "{calendar}",
     "calendar": {
