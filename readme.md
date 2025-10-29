@@ -6,13 +6,15 @@ you will need to be on arch linux to follow the first command of the installatio
 
 ## setup
 ```sh
-~ $ paru -S stow bash fastfetch hyprland hyprpaper kitty neovim starship waybar wofi playerctl qt5-wayland qt6-wayland getnf mako grim hyprshot swappy slurp wl-clipboard cliphist
+~ $ paru -S stow bash fastfetch hyprland hyprpaper kitty neovim starship waybar wofi playerctl qt5-wayland qt6-wayland getnf mako grim hyprshot swappy slurp wl-clipboard cliphist jq
 ~ $ git clone git@github.com:cylenia/dotfiles
 ~ $ cd dotfiles
 ~/dotfiles $ chmod +x update.sh
 ~/dotfiles $ ./update.sh
 ~/dotfiles $ getnf # here install the Hack font
 ~/dotfiles $ paru -Rns getnf
+~/dotfiles $ chmod +x waybar/net.sh
+~/dotfiles $ chmod +x waybar/player.sh
 ```
 if you get any warnings, read them. they should be descriptive enough to help you figure it out. if you can't feel free to open an issue though. i'd be happy to help!
 
