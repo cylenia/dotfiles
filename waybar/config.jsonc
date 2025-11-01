@@ -14,7 +14,6 @@
     "hyprland/workspaces"
   ],
   "modules-right": [
-    "custom/net",
     "custom/player"
   ],
   /* === Modules Left === */
@@ -53,12 +52,6 @@
     "on-click": "playerctl play-pause && pkill -SIGRTMIN+3 waybar",
     "on-click-right": "playerctl next && pkill -SIGRTMIN+3 waybar",
     "on-click-middle": "playerctl previous && pkill -SIGRTMIN+3 waybar",
-    "tooltip": false
-  },
-  "custom/net": {
-    "exec": "~/.config/waybar/net.sh",
-    "interval": 1,
-    "signal": 3,
     "tooltip": false
   }
 }

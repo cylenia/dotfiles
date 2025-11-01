@@ -16,8 +16,7 @@ window#waybar.hidden {
 
 #clock,
 #workspaces,
-#custom-player,
-#custom-net {
+#custom-player {
   color: #cba6f7;
   padding-left: 10px;
   padding-right: 10px;

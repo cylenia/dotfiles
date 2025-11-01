@@ -13,6 +13,7 @@ declare -A targets=(
   [starship]="$HOME/.config" # starship is just a file
   [waybar]="$HOME/.config/waybar"
   [wofi]="$HOME/.config/wofi"
+  [mako]="$HOME/.config/mako"
 )
 
 cd "$DOTFILES" || exit 1
